@@ -41,6 +41,7 @@ body {
     border-radius: 6px;
     color: white;
     background-color: #10B981;
+    width: 200px
 }
 
 #line {
@@ -70,4 +71,11 @@ body {
     overflow: hidden;
 
 
+}
+
+#contain {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 100px auto;
 }
